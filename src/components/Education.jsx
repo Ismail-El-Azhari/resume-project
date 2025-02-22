@@ -1,8 +1,8 @@
 import React from 'react';
 
 function Education() {
-  // Function to handle button clicks and open links
   const handleButtonClick = (url) => {
+    console.log("Button clicked! Opening:", url);
     window.open(url, '_blank');
   };
 
