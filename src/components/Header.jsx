@@ -1,6 +1,7 @@
 import React from 'react';
 import githubLogo from '../assets/GitHub-logo.png'; 
 import linkedinLogo from '../assets/LinkedIn_icon.svg.png'; 
+import facePicture from '../assets/photo-visage.jpg';
 
 function Header() {
   return (
@@ -10,6 +11,11 @@ function Header() {
         <p className="subTitle">elazhari94@gmail.com</p>
         <p className="subTitle">+1 (438) 923-5716</p>
       </div>
+      <div>
+      <a>
+          <img src={facePicture} alt="Face picure" className='facepic'/> 
+        </a>
+      </div>
       <div className="links">
         <a href="https://github.com/Ismail-El-Azhari?tab=repositories" target="_blank" rel="noopener noreferrer">
           <img src={githubLogo} alt="GitHub" className="logo" /> Github repository
@@ -17,6 +23,7 @@ function Header() {
         <a href="https://www.linkedin.com/in/ismail-el-azhari-a51baa256" target="_blank" rel="noopener noreferrer">
           <img src={linkedinLogo} alt="LinkedIn" className="logo" /> LinkedIn profile
         </a>
+
       </div>
     </header>
   );
