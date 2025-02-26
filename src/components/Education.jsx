@@ -7,7 +7,7 @@ function Education() {
   };
 
   return (
-    <div className="section">
+    <div id="education" className="section">
       <h2>Education:</h2>
       <div className="section-example">
         <h3>Université de Montréal</h3>

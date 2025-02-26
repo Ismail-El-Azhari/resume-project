@@ -7,10 +7,11 @@
 body {
   background-color: white;
   color: black;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 15px;
   margin: 0;
   padding: 0;
+  
 }
 
 
@@ -27,20 +28,6 @@ body {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-/* @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-} */
 
 .card {
   padding: 2em;
@@ -50,27 +37,31 @@ body {
   color: #706e6e;
 }
 
-.facepic{
-  height: 150px;
-  width: 120px;
-  padding: 5%;
-  object-fit: cover;
-  margin-right: 1rem;
-  border-radius: 40%;
+.facepic {
+  border-radius: 50%;     
+  object-fit: cover;     
+  width: 150px;          
+  height: 150px;          
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
 }
 
+
 .section{
+  background-color: #dceaf7; 
   max-width: 1200px;
   margin: 20px auto;
   border-radius: 5px;
   padding: 20px;
   text-align: left;
-  
+  padding: 40px; 
+  margin-bottom: 30px; 
+  padding-top: 25px;
 
 }
 
 .section-example{
   margin-bottom: 20px;
+  padding: 20px;
 
 }
 
@@ -93,27 +84,22 @@ body {
 
 }
 
-body{
-  color: black;
-  font-family: Arial;
-  font-size: 15px;
-  padding: 5px;
-}
-
-
 
 .title{
-  color: black;
+  color: #007bff;
   font-family: Arial;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 20;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 50px;
 
 }
 
 .subTitle{
-  color: rgb(88, 86, 86);
+  color: #007bff;
   font-family: Arial;
   font-size: 15px;
   font-weight: bold;
@@ -125,6 +111,7 @@ body{
 }
 .website-button:hover{
   background-color: rgb(88, 88, 233);
+  text-decoration: underline;
 }
 .website-button:active{
   background-color: rgb(38, 190, 213);
@@ -134,7 +121,29 @@ body{
 }
 .video-button:hover{
   background-color: rgb(239, 93, 93);
+  text-decoration: underline;
 }
 .video-button:active{
   background-color: rgb(242, 146, 213);
+}
+
+.contact-info{
+  color: #007bff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.navbar a {
+  color: #007bff;  
+  transition: color 0.3s ease;  
+}
+
+.navbar a:hover {
+  color: #ffd700;  
 }

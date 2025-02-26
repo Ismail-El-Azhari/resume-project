@@ -28,7 +28,7 @@ function WorkExperience(){
           </button>
         </div>
       </div>
-      <div className="section-example">
+      <div id="work-experience" className="section-example">
         <h3>Customer service representative</h3>
         <h4>Rogers Inc.</h4>
         <p className="location">Montreal,QC</p>

@@ -7,10 +7,6 @@ function Header() {
   return (
     <header className="header">
       <h1 className="title">Ismail El Azhari</h1>
-      <div className="contact-info">
-        <p className="subTitle">elazhari94@gmail.com</p>
-        <p className="subTitle">+1 (438) 923-5716</p>
-      </div>
       <div>
       <a>
           <img src={facePicture} alt="Face picure" className='facepic'/> 
